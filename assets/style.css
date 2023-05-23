@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Hanalei&family=Monoton&family=Righteous&family=Shadows+Into+Light&family=Shrikhand&family=Vast+Shadow&display=swap');
+
+/* * {
+} */
+
+body {
+    display: flex;
+    min-width: 1920px;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: auto;
+    background-color: black;
+}
+
+#borderContainer {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ width: 1800px;
+ border-radius: 2rem;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+#mC {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ width: 1746px;
+ border-radius: 2rem;
+ margin: 20px;
+ background-color: aqua;
+}
+
+/* nav bar and elements it contains below */
+
+#navBar {
+ display:flex;
+ width: 1693px;
+ height: 150px;
+ margin: 25px;
+ background-color: aqua;
+}
+
+#rgbLogo {
+ width: 150px;
+ height: 150px;
+ text-align: center;
+ font-size: 110px;
+ font-family: "Shrikhand";
+ border: 5px solid black;
+ border-radius: 1rem;
+ background-clip: text;
+ -webkit-background-clip: text;
+ color: transparent;
+
+}
+
+#spaceContainer1 {
+ display: flex;
+ flex-direction: row;
+ width: 955px;
+ height: 150px;
+}
+
+#travelPath {
+ width: 655px;
+ height: 150px;
+ opacity: 0.4;
+ background-color: blue;
+}
+
+#travelPath2 {
+ position: fixed;
+ left: 750px;
+ width: 915px;
+ height: 150px;
+ z-index: 2;
+ /* background-color: blue; */
+ /* opacity: 0.4; */
+}
+
+#kirby {
+ position: fixed;
+ /* left: 10px; */
+ width: 100px;
+ height: 130px;
+ background-size: 100%;
+ background-image: url("../assets/images/kirby_walking_gif_transparent.gif");
+ background-repeat: no-repeat;
+ z-index: 5;
+}
+
+#portalDiv1 {
+ width: 150px;
+ height: 150px;
+ background-image: url("../assets/images/portal_gif_transparent.gif");
+ background-size: 100%;
+}
+
+#portalDiv2 {
+ width: 150px;
+ height: 150px;
+ background-image: url("../assets/images/portal_gif_transparent.gif");
+ background-size: 100%;
+}
+
+#linksContainer {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 600px;
+ height: 150px;
+ border: 5px solid black;
+ border-radius: 1rem;
+ font-size: 30px;
+ font-family: "black ops one";
+}
+
+#navBarLinks {
+ margin: 10px;
+ text-decoration: none;
+}
+
+#navBarLinks:hover {
+ background-color: springgreen;
+ border: 3px solid black;
+ border-radius: 0.5rem;
+}
+
+
+/* nav bar and elements it contains above */
+
+/* intro container and elements it contains below  */
+
+#introContainer {
+ display: flex;
+ width: 1693px;
+ height: 480px;
+ margin: 25px;
+ background-color: aqua;
+}
+
+#imageBox {
+display:flex;
+width: 500px;
+height: 480px;
+/* border: 2px solid black; */
+border-radius: 1rem;
+background-image: url("../assets/images/naruto_nike.jpg");
+background-repeat: no-repeat;
+}
+
+#spaceContainer2 {
+display: flex;
+width: 205px;
+height: 480px;
+font-size: 30px;
+flex-direction: row-reverse;
+font-family: "Shrikhand";
+}
+
+#aboutMe {
+width: 980px;
+height: 480px;
+border: 5px solid black;
+border-radius: 1rem;
+text-indent: 5%;
+font-size: 30px;
+}
+
+#textBox {
+ width: 940px;
+ align-items: center;
+ justify-content: center;
+ margin: 20px;
+}
+
+/* intro container and elements it contains above  */
+
+#sideBar {
+ display: flex;
+ flex-direction: row-reverse;
+ width: 350px;
+ height: 900px;
+ margin: 25px;
+ background-color: aqua;
+ font-family: "Shrikhand";
+ font-size: 60px;
+ border-right: 4px solid black;
+ border-bottom: 4px solid black;
+}
+
+/* main bar and elements it contains below  */
+
+#mainBar {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+ width: 1290px;
+ height: 900px;
+ margin: 25px;
+ background-color: aqua;
+}
+
+#primaryItem {
+ width: 1150px;
+ height: 300px;
+ border: 2px solid black;
+ border-radius: 1rem;
+} 
+
+#secondaryItems {
+ width: 550px;
+ height: 200px;
+ border: 2px solid black;
+ border-radius: 1rem;
+ margin: 25px;
+}
+
+#textBoxPrimary {
+ width: 150px;
+ height: 100px;
+ border: 2px solid black;
+ background-color: black;
+ color: white;
+ margin-top: 140px;
+}
+
+#textBoxSecondary {
+ width: 150px;
+ height: 100px;
+ border: 2px solid black;
+ background-color: black;
+ color: white;
+ margin-top: 50px;
+}
+
+a:hover {
+ background-color: springgreen;
+ border: 8px solid springgreen;
+ border-radius: 0.5rem;
+}
+
+/* main bar and elements it contains above  */
+
+#footer {
+ display:flex;
+ width: 1693px;
+ height: 150px;
+ margin: 25px;
+ background-color: aqua;
+ align-items: center;
+ justify-content: center;
+ font-size: 30px;
+}
