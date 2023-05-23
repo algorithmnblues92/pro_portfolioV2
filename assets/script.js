@@ -69,46 +69,46 @@ for (x=0; x<42;x++) {
 
 
 //going to make a fast function then learn coords so i can spawn in a travel path and kirby running from portal to portal
-var travelArray = [];
-var startingV = 10;
-var startingVplusMovement = 0;
-var counter3 = 0;
-for(s=0;s<80;s++) {
-startingVplusMovement = s * 10 + startingV;
-travelArray.push(startingVplusMovement);
-}
+// var travelArray = [];
+// var startingV = 10;
+// var startingVplusMovement = 0;
+// var counter3 = 0;
+// for(s=0;s<80;s++) {
+// startingVplusMovement = s * 10 + startingV;
+// travelArray.push(startingVplusMovement);
+// }
 
-// console.log(travelArray)
+// // console.log(travelArray)
 
-var tp1 = document.getElementById("portalDiv1").getBoundingClientRect();
-var tp2 = document.getElementById("portalDiv2").getBoundingClientRect();
+// var tp1 = document.getElementById("portalDiv1").getBoundingClientRect();
+// var tp2 = document.getElementById("portalDiv2").getBoundingClientRect();
 
-// console.log(JSON.stringify(tp2));
+// // console.log(JSON.stringify(tp2));
 
-kirbySprite = document.getElementById("kirby");
-kirbySpriteCoords = document.getElementById("kirby").getBoundingClientRect();
-// kirbySprite.style.top = tp2.top + "px";
-// kirbySprite.style.left = tp2.left + "px";
+// kirbySprite = document.getElementById("kirby");
+// kirbySpriteCoords = document.getElementById("kirby").getBoundingClientRect();
+// // kirbySprite.style.top = tp2.top + "px";
+// // kirbySprite.style.left = tp2.left + "px";
 
-// console.log(tp2.left);
-// console.log(tp2.top);
+// // console.log(tp2.left);
+// // console.log(tp2.top);
 
 
-var kirbyRun = setInterval( function() {
+// var kirbyRun = setInterval( function() {
 
-// kirbySprite.style.left = travelArray[counter3] + "px";
-kirbySprite.style.left = (tp1.left + (counter3 * 8.57)) + "px";
-counter3++
-kirbySpriteCoords = document.getElementById("kirby").getBoundingClientRect();
-tp2 = document.getElementById("portalDiv2").getBoundingClientRect();
- console.log("kirby x coord :" + kirbySpriteCoords.left);
- console.log("tp2 x coord :" + tp2.left)
+// // kirbySprite.style.left = travelArray[counter3] + "px";
+// kirbySprite.style.left = (tp1.left + (counter3 * 8.57)) + "px";
+// counter3++
+// kirbySpriteCoords = document.getElementById("kirby").getBoundingClientRect();
+// tp2 = document.getElementById("portalDiv2").getBoundingClientRect();
+//  console.log("kirby x coord :" + kirbySpriteCoords.left);
+//  console.log("tp2 x coord :" + tp2.left)
 
-if (kirbySpriteCoords.left > (tp2.left + 10)) {
- counter3 = 0;
-}
+// if (kirbySpriteCoords.left > (tp2.left + 10)) {
+//  counter3 = 0;
+// }
 
-}, 200);
+// }, 200);
 
 // now to make javascript games loool
 // im going to make some troll ass games
